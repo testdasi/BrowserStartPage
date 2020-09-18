@@ -102,19 +102,19 @@ a {
 	text-decoration: none;
 	color: inherit	;
 }
-#education-items {
+#appA-items {
 	background-color: var(--color-1);
 }
-#communication-items {
+#appB-items {
 	background-color: var(--color-2);
 }
-#entertainment-items {
+#appC-items {
 	background-color: var(--color-3);
 }
-#programming-items {
+#appD-items {
 	background-color: var(--color-4);
 }
-#misc-items {
+#appE-items {
 	background-color: var(--color-5);
 }
 @media screen and ( max-height: 700px ) {
