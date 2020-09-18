@@ -28,19 +28,19 @@ var searchSelection = false;
 backgroundColor = window.getComputedStyle(document.getElementById("app-menu"), null)["background-color"];
 textColor = window.getComputedStyle(document.getElementById("app-menu"), null)["color"];
 
-color1 = window.getComputedStyle(document.getElementById("education-items"), null)["background-color"];
-color2 = window.getComputedStyle(document.getElementById("communication-items"), null)["background-color"];
-color3 = window.getComputedStyle(document.getElementById("entertainment-items"), null)["background-color"];
-color4 = window.getComputedStyle(document.getElementById("programming-items"), null)["background-color"];
-color5 = window.getComputedStyle(document.getElementById("misc-items"), null)["background-color"];
+color1 = window.getComputedStyle(document.getElementById("appA-items"), null)["background-color"];
+color2 = window.getComputedStyle(document.getElementById("appB-items"), null)["background-color"];
+color3 = window.getComputedStyle(document.getElementById("appC-items"), null)["background-color"];
+color4 = window.getComputedStyle(document.getElementById("appD-items"), null)["background-color"];
+color5 = window.getComputedStyle(document.getElementById("appE-items"), null)["background-color"];
 
 // Generate key for colors
 var colorDict = {
-    "education-items": color1,
-    "communication-items": color2,
-    "entertainment-items": color3,
-    "programming-items": color4,
-    "misc-items": color5
+    "appA-items": color1,
+    "appB-items": color2,
+    "appC-items": color3,
+    "appD-items": color4,
+    "appE-items": color5
 };
 function isLetter(c) {
     return c.toLowerCase() != c.toUpperCase();
